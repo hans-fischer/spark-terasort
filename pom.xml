@@ -43,18 +43,12 @@
     <name>Ewan Higgs</name>
     <email>ewan.higgs@gmail.com</email>
   </developer>
+  <developer>
+    <id>hans-fischer</id>
+    <name>Hans Fischer</name>
+    <email>kontakt@hans-fischer.com</email>
+  </developer>
 </developers>
-
-<distributionManagement>
-  <snapshotRepository>
-    <id>ossrh</id>
-    <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-  </snapshotRepository>
-  <repository>
-    <id>ossrh</id>
-    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-  </repository>
-</distributionManagement>
 
 <build>
   <resources>

@@ -1,13 +1,15 @@
 # TeraSort benchmark for Spark
 
-[![Build
-Status](https://travis-ci.org/ehiggs/spark-terasort.svg)](https://travis-ci.org/ehiggs/spark-terasort)
+This is an example Spark program for running TeraSort benchmarks. 
 
-This is an example Spark program for running TeraSort benchmarks. It is based on
-work from [Reynold Xin's branch](https://github.com/rxin/spark/tree/terasort),
-but it is not the same TeraSort program that currently holds the
-[record](http://sortbenchmark.org/). That program is
-[here](https://github.com/rxin/spark/tree/sort-benchmark/core/src/main/scala/org/apache/spark/sort).
+Master is currently:
+
+Java: 11
+Scala: 2.12
+Spark: 3.0.1
+Hadoop: 3.3.0
+
+You can build the target on a computer with docker installed by running ./docker-start-build.sh
 
 # Building
 
