@@ -1,3 +1,7 @@
 release.properties
 scalastyle-output.xml
 target/
+.DS_Store
+.bash_history
+.m2/
+.sbt/
